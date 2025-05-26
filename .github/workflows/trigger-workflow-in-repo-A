@@ -4,6 +4,7 @@ on:
   pull_request:
   push:
     types: [opened, synchronize]
+  workflow_dispatch
 
 jobs:
   trigger-repo-a:
