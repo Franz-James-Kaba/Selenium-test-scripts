@@ -10,7 +10,7 @@ on:
 
 
 jobs:
-  trigger-repo-b:
+  trigger-repo-a:
     runs-on: ubuntu-latest
     steps:
       - name: Call Repo A via repository_dispatch
