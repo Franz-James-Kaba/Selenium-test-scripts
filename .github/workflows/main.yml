@@ -19,4 +19,4 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: token ${{ secrets.REPO_A_PAT }}" \
             https://api.github.com/repos/adwoafaith/Touching_Student_Lives/dispatches \
-            -d '{"event_type": "trigger-from-repo-a"}'
+            -d '{"event_type": "trigger-from-repo-b"}'
