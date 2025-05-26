@@ -2,9 +2,12 @@ name: Trigger Workflow in Repo A
 
 on:
   pull_request:
-  push:
     types: [opened, synchronize]
-  workflow_dispatch
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
 
 jobs:
   trigger-repo-a:
